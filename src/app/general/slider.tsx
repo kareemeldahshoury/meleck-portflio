@@ -3,7 +3,12 @@
 
 import { useState } from "react";
 
-export default function Carousel({ slides = [] }) {
+interface CarouselProps {
+  slides: string[]; // Define the type of the `slides` prop as an array of strings.
+}
+
+
+export default function Carousel({ slides = [] }: CarouselProps) {
   let [current, setCurrent] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageForLightbox, setCurrentImageForLightbox] = useState('');
