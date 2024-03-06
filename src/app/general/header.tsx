@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <header className="bg-custom-blue text-white font-average body-font shadow w-full">
-      <div className="flex w-full p-10 flex-col md:flex-row items-center justify-between">
+      <div className="flex w-full p-5 flex-col md:flex-row items-center justify-between">
         <Link href="/" className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <span className="text-4xl text-white  font-average">Meleck Eldahshoury</span>
         </Link>
