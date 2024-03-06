@@ -13,7 +13,7 @@ interface GalleryProps {
 
 const Gallery: React.FC<GalleryProps> = ({ images }) => {
     return (
-      <div className="gallery-masonry m-2">
+      <div className="gallery-masonry m-1">
         {images.map((image, index) => (
           <div key={index} className="gallery-item">
             <ImageDisplay src={image.src} alt={image.alt} className="w-full h-auto" />
