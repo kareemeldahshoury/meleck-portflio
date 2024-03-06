@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <main className="flex flex-col h-screen bg-white">
       <Header></Header>
-      <div className="flex flex-col items-center justify-center h-screen bg-white">
-        <div className="w-3/5 h-700 flex flex-col justify-center items-center text-center mt-20">
+      <div className="flex flex-col items-center justify-center h-screen bg-white mt-10">
+        <div className="w-3/5 h-850 flex flex-col justify-center items-center text-center mt-20">
           <img src={'/DSC00889.JPG'} style={{ width: '35%', marginBottom: '20px'}}></img>
         <h1 className="text-4xl font-average text-customgreen mb-4">Meleck Eldahshoury</h1>
         <p className="font-average text-customgreen text-xl">Hello! My name is Meleck Eldahshoury, I’m from Minneapolis, Minnesota, but I am currently based in Ann Arbor,
