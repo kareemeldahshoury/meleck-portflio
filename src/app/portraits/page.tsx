@@ -5,10 +5,9 @@ import ImageSlider from "../general/slider";
 
 export default function Home() {
   const imageSources = [
-    '/44.5.jpg',
-    '/DSC05114.jpg',
+    '/DSC07071.jpg',
     'lucia.jpg',
-    'mel.jpg',
+    'DSC00827 copy.jpg',
   ];
 
   return (
