@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
       <Header />
-      <main className="flex-1 overflow-hidden mt-5">
+      <main className="flex-1 overflow-hidden">
         <ImageSlider slides={imageSources} />
       </main>
       <Footer />
