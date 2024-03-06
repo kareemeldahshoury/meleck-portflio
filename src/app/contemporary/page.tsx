@@ -9,7 +9,7 @@ const images = [
     { src: '/lucia.jpg', alt: 'Description of image 2' },
     { src: '/mel.jpg', alt: 'Description of image 2' },
     { src: '/menay6.jpg', alt: 'Description of image 2' },
-    { src: '/DSC00889.jpg', alt: 'Description of image 2' },
+    { src: '/DSC00889.JPG', alt: 'Description of image 2' },
     { src: '/DSC05114.jpg', alt: 'Description of image 2' },
   ];
 
