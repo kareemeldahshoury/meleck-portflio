@@ -8,7 +8,7 @@ export default function Carousel({ slides = [] }) {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageForLightbox, setCurrentImageForLightbox] = useState('');
 
-  const toggleLightbox = (src) => {
+  const toggleLightbox = (src: string) => {
     setCurrentImageForLightbox(src); // Update the current image for the lightbox
     setLightboxOpen(!lightboxOpen);
   };
