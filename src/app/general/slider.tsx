@@ -30,7 +30,7 @@ export default function Carousel({ slides = [] }: CarouselProps) {
 
   return (
     <div className="flex justify-center items-center">
-      <div className="overflow-hidden relative" style={{ width: '61%', height: '850px' }}>
+      <div className="overflow-hidden relative" style={{ width: '61%', height: '700px' }}>
         <div
           className="flex transition ease-out duration-400"
           style={{
@@ -43,7 +43,7 @@ export default function Carousel({ slides = [] }: CarouselProps) {
               src={src} 
               style={{ 
                 width: `${100 / slides.length}%`,
-                height: '850px',
+                height: '700px',
                 objectFit: 'contain',
                 objectPosition: 'center',
               }} 
@@ -54,8 +54,8 @@ export default function Carousel({ slides = [] }: CarouselProps) {
           ))}
         </div>
 
-        <button onClick={previousSlide} style={{ position: 'absolute', top: '10px', right: '50px', padding: '2px'}}>(prev/</button>
-        <button onClick={nextSlide} style={{ position: 'absolute', top: '10px', right: '10px', padding: '2px'}}>next)</button>
+        <button onClick={previousSlide} style={{ position: 'absolute', top: '0px', right: '50px', padding: '2px'}}>(prev/</button>
+        <button onClick={nextSlide} style={{ position: 'absolute', top: '0px', right: '10px', padding: '2px'}}>next)</button>
       </div>
 
       {lightboxOpen && (
