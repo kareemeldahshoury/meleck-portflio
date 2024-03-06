@@ -13,6 +13,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'customgreen': '#5F6F52',
+        'custombeige': '#F2EFE5',
+        'customgreen-d': '#3A4D39',
+        'custom-blue': '#495C83',
+        'neon-green': '#96E9C6'
+      },
+      fontFamily: {
+        average: ['Average', 'serif'], // Add 'serif' as a fallback
+      },
     },
   },
   plugins: [],
