@@ -54,8 +54,8 @@ export default function Carousel({ slides = [] }: CarouselProps) {
           ))}
         </div>
 
-        <button onClick={previousSlide} style={{ position: 'absolute', top: '0px', right: '50px', padding: '2px'}}>(prev/</button>
-        <button onClick={nextSlide} style={{ position: 'absolute', top: '0px', right: '10px', padding: '2px'}}>next)</button>
+        <button className='text-custom-blue' onClick={previousSlide} style={{ position: 'absolute', top: '0px', right: '50px', padding: '2px'}}>(prev/</button>
+        <button className='text-custom-blue' onClick={nextSlide} style={{ position: 'absolute', top: '0px', right: '10px', padding: '2px'}}>next)</button>
       </div>
 
       {lightboxOpen && (
